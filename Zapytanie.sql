@@ -29,7 +29,7 @@ SELECT
           END)
         * 
         CASE
-            WHEN clients.email LIKE '%apple%' THEN 4.0
+            WHEN clients.email LIKE '%apple%' THEN 0.4
             ELSE 1
         END
         *
